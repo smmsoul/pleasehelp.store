@@ -3391,6 +3391,18 @@ button {
     pointer-events: none;
     grid-template-columns: 75% 25%; }
 
+@-webkit-keyframes loaderAnim {
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(0.2, 0.3, 0.5);
+            transform: scale3d(0.2, 0.3, 0.5); } }
+
+@keyframes loaderAnim {
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(0.2, 0.3, 0.5);
+            transform: scale3d(0.2, 0.3, 0.5); } }
+
 
 
 /* Banner Shape */
